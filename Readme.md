@@ -194,15 +194,8 @@ O relatório no Power BI foi estruturado em **5 páginas temáticas**, com cabe�
 
 ## 9. Instruções de Reprodução
 
-1. Clone o repositório do projeto:
-   ```bash
-   git clone https://github.com/usuario/bps-analise-compras.git
-   cd bps-analise-compras
-   ```
-2. Baixe os CSVs anuais de 2020 a 2026 no diretório raiz do projeto.
-3. Execute o notebook `Projeto.ipynb` para unificar e sanear a base bruta gerando `todos_tratado.csv`.
-4. Abra o arquivo `Dashboard.pbix` no **Power BI Desktop**.
-5. Em **Transformar Dados > Configurações da Fonte de Dados**, atualize o caminho para apontar para o seu arquivo `todos_tratado.csv` local e clique em **Atualizar**.
-
----
-**Vídeo de Apresentação:** [Link para o Vídeo de Apresentação do Projeto](https://link-do-video-aqui)
+1. Baixe os CSVs anuais de 2020 a 2026 no diretório raiz do projeto.
+2. Execute o notebook `Projeto.ipynb` para unificar e sanear a base bruta gerando `todos_tratado.csv`.
+3. Abra o arquivo `Dashboard.pbix` no **Power BI Desktop**.
+4. Em **Transformar Dados > Configurações da Fonte de Dados**, atualize o caminho para apontar para o seu arquivo `todos_tratado.csv` local e clique em **Atualizar**.
+   
